@@ -1,0 +1,27 @@
+#projectsDisplay {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.projectsDisplay-project {
+  width: 100%;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+/* ----- Breakpoints ----- */
+/* Medium screen devices (768px and above) */
+@media only screen and (min-width: 768px) {
+  .projectsDisplay-project {
+    width: 40%;
+  }
+}
+ 
+/* Extra big screen devices (1200px and above) */
+@media only screen and (min-width: 1200px) {
+  .projectsDisplay-project {
+    width: 30%;
+  }
+}
+/* ----- /Breakpoints ----- */
