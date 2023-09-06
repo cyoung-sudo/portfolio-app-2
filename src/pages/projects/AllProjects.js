@@ -12,7 +12,7 @@ const AllProjects = () => {
   return (
     <Container id="allProjects">
       <Row>
-        <Col id="allProjects-sec-1">
+        <Col>
           <div id="allProjects-header">
             <h1>Projects</h1>
           </div>
@@ -20,7 +20,7 @@ const AllProjects = () => {
       </Row>
 
       <Row>
-        <Col id="allProjects-sec-2">
+        <Col>
           <div id="allProjects-list-wrapper">
             <ProjectsDisplay projects={ projects }/>
           </div>

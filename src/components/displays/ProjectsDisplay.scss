@@ -10,6 +10,21 @@
   text-align: center;
 }
 
+.projectsDisplay-project-name {
+  margin-bottom: 0.3rem;
+}
+
+.projectsDisplay-project-deployment {
+  > span {
+    font-size: 0.9rem;
+    > span {
+      position: relative;
+      left: 2px;
+      bottom: 1px;
+    }
+  }
+}
+
 /* ----- Breakpoints ----- */
 /* Medium screen devices (768px and above) */
 @media only screen and (min-width: 768px) {
