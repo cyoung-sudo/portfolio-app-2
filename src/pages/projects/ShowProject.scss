@@ -1,0 +1,42 @@
+@import "~react-image-gallery/styles/css/image-gallery.css";
+
+#showProject {
+  margin-top: 2rem;
+}
+
+#showProject-header {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.showProject-header-deployment {
+  > span {
+    font-size: 0.9rem;
+    > span {
+      position: relative;
+      left: 2px;
+      bottom: 1px;
+    }
+  }
+}
+
+#showProject-info {
+  margin-bottom: 2rem;
+  > div {
+    margin-bottom: 0.5rem;
+  }
+}
+
+.showProject-info-label {
+  font-weight: bold;
+}
+
+.showProject-info-badge {
+  margin-right: 0.3rem;
+}
+
+#showProject-images-wrapper {
+  width: 100%;
+  margin-bottom: 2rem;
+  border: 1px solid gray;
+}
