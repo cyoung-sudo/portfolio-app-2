@@ -1,0 +1,65 @@
+#home {
+  // min-height: calc(100vh - var(--navigationBar-height) - var(--footer-height));
+  background-image: url("https://images.pexels.com/photos/1084526/pexels-photo-1084526.jpeg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+#home-wrapper {
+  background-color: var(--light-color);
+}
+
+#home-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - var(--navigationBar-height));
+  text-align: center;
+  color: white;
+  > svg {
+    margin-bottom: 0.3rem;
+  }
+  > div {
+    margin: 0 1rem 0 1rem;
+    font-size: 1.1rem;
+    font-weight: 300;
+  }
+}
+
+#home-projects {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - var(--navigationBar-height));
+  text-align: center;
+  background-color: white;
+  > svg {
+    margin-bottom: 0.3rem;
+  }
+  > div {
+    margin: 0 1rem 1rem 1rem;
+    font-size: 1.1rem;
+    font-weight: 300;
+  }
+}
+
+#home-contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - var(--navigationBar-height));
+  text-align: center;
+  color: white;
+  > svg {
+    margin-bottom: 0.3rem;
+  }
+  > div {
+    margin: 0 1rem 0 1rem;
+    font-size: 1.1rem;
+    font-weight: 300;
+  }
+}
