@@ -15,7 +15,7 @@ function App() {
       <NavigationBar />
       <div id="app-content">
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route exact path="/" element={<Home />} />
 
           <Route path="/projects">
             <Route index element={<AllProjects />} />
