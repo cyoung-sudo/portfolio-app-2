@@ -4,14 +4,14 @@ import "./index.scss";
 // Bootstrap
 import "bootstrap/dist/css/bootstrap.min.css";
 // Routing
-import { BrowserRouter } from "react-router-dom";
+import { HashRouter } from "react-router-dom";
 import App from "./App";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <BrowserRouter basename="/portfolio-app-2">
+    <HashRouter>
       <App />
-    </BrowserRouter>
+    </HashRouter>
   </React.StrictMode>
 );
