@@ -6,11 +6,11 @@ import ShowProject from "../pages/projects/ShowProject";
 
 const routesConfig = [
   {
-    path: "", 
+    path: "/", 
     element: <App/>,
     children:[
       {
-        path: "",
+        path: "/",
         element: <Home/>
       },
       {
