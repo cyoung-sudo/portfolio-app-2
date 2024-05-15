@@ -193,5 +193,45 @@ export const projects = [
       server: "https://github.com/cyoung-sudo/blog-app-2-server"
     },
     deployed: true
+  },
+
+  {
+    name: "Game 1",
+    about: "A game where the player attempts to escape endless randomly-generated levels. The levels consists of mountains & enemies. Players & enemies can move in all 6 directions.",
+    website: "https://cyoung-sudo.github.io/game-1/",
+    images: [
+      "https://raw.githubusercontent.com/cyoung-sudo/game-1/main/public/screenshot1.png",
+      "https://raw.githubusercontent.com/cyoung-sudo/game-1/main/public/screenshot2.png"
+    ],
+    tech: [
+      "HTML",
+      "SCSS",
+      "Javascript",
+      "React"
+    ],
+    repos: {
+      client: "https://github.com/cyoung-sudo/game-1"
+    },
+    deployed: true
+  },
+
+  {
+    name: "Game 2",
+    about: "A game where the player fights through endless randomly-generated levels. The levels consists of enemies & many different useable items. Players & enemies can move in 4 directions.",
+    website: "https://cyoung-sudo.github.io/game-2/",
+    images: [
+      "https://raw.githubusercontent.com/cyoung-sudo/game-2/main/public/screenshot1.png",
+      "https://raw.githubusercontent.com/cyoung-sudo/game-2/main/public/screenshot2.png"
+    ],
+    tech: [
+      "HTML",
+      "SCSS",
+      "Javascript",
+      "React"
+    ],
+    repos: {
+      client: "https://github.com/cyoung-sudo/game-2"
+    },
+    deployed: true
   }
 ];
