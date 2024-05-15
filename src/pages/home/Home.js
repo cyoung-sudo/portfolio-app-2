@@ -22,7 +22,7 @@ const Home = () => {
         <div id="home-projects">
           <ImFilesEmpty size={ 70 }/>
           <h1>Projects</h1>
-          <div>Full-stack projects that use the MERN stack (MongoDB-Atlas, Express, React, and Node)</div>
+          <div>Full-stack projects that use the MERN stack (MongoDB-Atlas, Express, React, and Node) & React projects</div>
           <LinkContainer to="/projects">
             <Button variant="primary">View Projects</Button>
           </LinkContainer>
@@ -31,9 +31,8 @@ const Home = () => {
         <div id="home-contact">
           <AiOutlineMail size={ 70 }/>
           <h1>Contact</h1>
-          <div>Email</div>
-          <div>LinkedIn</div>
-          <div>Github</div>
+          <a href="mailto:cyoungcs20@gmail.com" title="email link" target="_blank" rel="noreferrer">Email</a>
+          <a href="https://github.com/cyoung-sudo" title="github link" target="_blank" rel="noreferrer">Github</a>
         </div>
       </div>
     </div>
