@@ -233,5 +233,52 @@ export const projects = [
       client: "https://github.com/cyoung-sudo/game-2"
     },
     deployed: true
+  },
+
+  {
+    name: "Chat App",
+    about: "An app that allows users to message each other on a single global chat.",
+    website: "https://chat-app-client-vlae.onrender.com/",
+    images: [
+      "https://raw.githubusercontent.com/cyoung-sudo/chat-app-client/main/public/screenshot1.png"
+    ],
+    tech: [
+      "HTML",
+      "SCSS",
+      "Javascript",
+      "React",
+      "Node",
+      "Express",
+      "MongoDB Atlas"
+    ],
+    repos: {
+      client: "https://github.com/cyoung-sudo/chat-app-client",
+      server: "https://github.com/cyoung-sudo/chat-app-server"
+    },
+    deployed: true
+  },
+
+  {
+    name: "Group Chat App",
+    about: "An app that allows users to message each other by joining groups.",
+    website: "https://group-chat-app-client.onrender.com/",
+    images: [
+      "https://raw.githubusercontent.com/cyoung-sudo/group-chat-app-client/main/public/screenshot1.png",
+      "https://raw.githubusercontent.com/cyoung-sudo/group-chat-app-client/main/public/screenshot2.png"
+    ],
+    tech: [
+      "HTML",
+      "SCSS",
+      "Javascript",
+      "React",
+      "Node",
+      "Express",
+      "MongoDB Atlas"
+    ],
+    repos: {
+      client: "https://github.com/cyoung-sudo/group-chat-app-client",
+      server: "https://github.com/cyoung-sudo/group-chat-app-server"
+    },
+    deployed: true
   }
 ];
